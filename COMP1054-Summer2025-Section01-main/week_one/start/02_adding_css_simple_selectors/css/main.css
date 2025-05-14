@@ -1,0 +1,23 @@
+/* element selectors */
+h1 {
+    color: red;
+}
+/* class selector */
+.title {
+    color: orange;
+}
+/* id selector */
+#title{
+    color: purple;
+}
+/* pseudo-class */
+h2:hover{
+    color: green;
+}
+p{
+    font-size: 20px;
+
+}
+footer p{
+    color: blue;
+}

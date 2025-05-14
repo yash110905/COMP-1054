@@ -1,0 +1,42 @@
+.container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #EC5A96;
+    color: #fff;
+}
+
+h1 {
+    font-size : 50px;
+    text-align: center;
+}
+h2 {
+    font-size: 30px;
+}
+p {
+    font-size: 30px;
+}
+main{
+    display:flex;
+}
+main > div + div {
+    padding-left: 20px;
+}
+/* animations */
+/* the animation code */
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+
+    }
+    50%{
+        opacity: 50;
+    }
+    100%{
+        opacity: 100;
+    }
+h1 {
+    animation-name: appear;
+    animation-duration: 6s;
+}
+}
