@@ -1,0 +1,41 @@
+/* nth-of-type */
+h2:nth-of-type(3) {
+  color: blue;
+}
+
+/* nth-child */
+h2:nth-child(2) {
+  color: red;
+}
+p::first-line {
+  font-weight: bold;
+}
+
+p::before {
+  content: "Note: ";
+  color: orange;
+}
+
+p::after {
+  content: " ★";
+  color: gold;
+}
+/* Descendant Selector: selects all em inside any p */
+p em {
+  color: green;
+}
+
+/* Direct Child Selector: selects direct li children of ul */
+ul > li {
+  list-style-type: square;
+}
+
+/* Adjacent Sibling Selector: selects the h3 immediately after an h2 */
+h2 + h3 {
+  color: purple;
+}
+
+/* General Sibling Selector: selects all h3 siblings that follow an h2 */
+h2 ~ h3 {
+  color: teal;
+}
