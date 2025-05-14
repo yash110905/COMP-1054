@@ -20,22 +20,22 @@ p::after {
   content: " ★";
   color: gold;
 }
-/* Descendant Selector: selects all em inside any p */
+/* Descendant Selector*/
 p em {
   color: green;
 }
 
-/* Direct Child Selector: selects direct li children of ul */
+/* Direct Child Selector */
 ul > li {
   list-style-type: square;
 }
 
-/* Adjacent Sibling Selector: selects the h3 immediately after an h2 */
+/* Adjacent Sibling Selector */
 h2 + h3 {
   color: purple;
 }
 
-/* General Sibling Selector: selects all h3 siblings that follow an h2 */
+/* General Sibling Selector */
 h2 ~ h3 {
   color: teal;
 }
