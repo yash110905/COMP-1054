@@ -1,41 +1,32 @@
-/* nth-of-type */
-h2:nth-of-type(3) {
-  color: blue;
+.container {
+    width: 800px;
+    height: 1400px;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    box-sizing: border-box; /*width at 800px */
 }
 
-/* nth-child */
-h2:nth-child(2) {
-  color: red;
-}
-p::first-line {
-  font-weight: bold;
+.photo {
+    position: relative; 
 }
 
-p::before {
-  content: "Note: ";
-  color: orange;
+.photo > .photo-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 15px;
 }
-
-p::after {
-  content: " ★";
-  color: gold;
-}
-/* Descendant Selector*/
-p em {
-  color: green;
-}
-
-/* Direct Child Selector */
-ul > li {
-  list-style-type: square;
-}
-
-/* Adjacent Sibling Selector */
-h2 + h3 {
-  color: purple;
-}
-
-/* General Sibling Selector */
-h2 ~ h3 {
-  color: teal;
+header {
+    position: sticky;
+    top: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    z-index: 1000; /*to keep it above */
 }
