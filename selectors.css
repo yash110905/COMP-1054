@@ -1,0 +1,58 @@
+/* EXAMPLE ONE - THE *TRICKY* CSS SELECTORS */
+
+/* Pseudo Selectors */
+
+/* Pseudo Classes */
+/* specifies a special state of the selected element*/
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes*/
+
+
+/* nth-child */
+
+
+/* nth-of-type */
+
+
+
+/*
+    TRY IT 
+    use nth-of-type to target the third h2
+
+    */
+
+/* 
+
+    TRY IT 
+    use nth-child to target the second h2 
+
+*/
+
+
+/* Pseudo Elements */
+/*A CSS pseudo-element is a keyword added to a selector that lets you style a specific part of the selected element(s) */
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements*/ 
+
+
+
+
+
+
+/* Combinators */
+
+/* combine other selectors in a way that gives them a useful relationship to each other and the location of content in the document */ 
+
+/* https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors/Combinators */ 
+
+
+
+/* Descendant Selector */
+
+
+/* Direct Child Selector */
+
+
+/* Adjacent Sibling Selector */
+
+
+/* General Sibling Selector */
