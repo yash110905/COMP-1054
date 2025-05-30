@@ -1,0 +1,52 @@
+/* Step 1: Define color variables using hex values or rgb values */
+:root {
+    --primary-color: #f0f4f8;         /* 1a - Soft light blue */
+
+    --secondary-color: #3498db;      /* 1b - Bold blue */
+    --text-color: #2c3e50;           /* 1c - Dark navy for text */
+    --card-bg: #ffffff;              /* 1d - White background for the card */
+}
+
+/* Step 2: Style the card */
+body {
+    background-color: var(--primary-color); /* Set theme background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.profile-card {
+    background-color: var(--card-bg); /* 2a - Card background */
+    background-image: url('https://www.transparenttextures.com/patterns/gray-floral.png'); /* 2b - Background pattern */
+    padding: 20px 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: var(--text-color); /* 2c - Text color */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* 2d - Soft shadow */
+    max-width: 320px;
+    width: 100%;
+    transition: transform 0.3s;
+}
+
+.profile-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Step 3: Add styles for the image and text */
+.avatar {
+    border-radius: 50%;
+    border: 3px solid var(--secondary-color); /* 3a - Avatar border */
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.bio {
+    color: var(--secondary-color); /* 3b - Bio text color */
+    font-size: 1rem;
+    margin-top: 10px;
+}
