@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="main.css" rel="stylesheet">
+    <title>CSS Grid Auto-Placement Task</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <h1> CSS Challenge #4 </h1>
+        <!-- TASK ONE -->
+        <section id="taskone">
+            <h2>Grid Auto-Placement Practice</h2>
+            <p>
+                Create a grid layout with 4 equal-width columns and a 10px gap between all rows and columns.
+                Observe how grid items automatically place themselves.
+            </p>
+            <div class="grid">
+                <div class="item">1</div>
+                <div class="item">2</div>
+                <div class="item">3</div>
+                <div class="item">4</div>
+                <div class="item">5</div>
+                <div class="item">6</div>
+                <!-- Feel free to add more .item elements here to test behavior -->
+            </div>
+        </section>
+
+        <!-- TASK TWO -->
+        <section id="tasktwo">
+            <h2>Grid Placement and Overlapping</h2>
+            <p>
+                Use manual placement to position items in a 3x3 grid. Item 3 should overlap item 1 and item 2.
+            </p>
+
+            <section class="grid">
+                <div class="item item1">1</div>
+                <div class="item item2">2</div>
+                <div class="item item3">3</div>
+            </section>
+        </section>
+        <!-- TASK THREE -->
+        <section id="taskthree">
+            <h1>Fix the Broken Grid</h1>
+            <p> An AI tool generated CSS in order to create the layout pictured below, however, the generated code is not working as intended. Identify and fix the mistakes in the CSS to nsure that the layout displays the correct structure. </p>
+            <div class="imgcontainer">
+                <img src="assets/layout.png" alt="intended layout">
+            </div>
+            <div class="grid">
+                <header>
+                    <p>Header</p>
+                </header>
+                <nav>
+                    <p>Navigation</p>
+                </nav>
+                <main>
+                    <p>Main Content</p>
+                </main>
+                <footer>
+                    <p>Footer</p>
+                </footer>
+            </div>
+        </section>
+    </div><!--end container-->
+</body>
+
+</html>
